@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include <stdio.h>
 /**
  * main - Entry point
@@ -7,7 +6,7 @@
  */
 int main(void)
 {
-	int a;
+	char a;
 
 	for (a = 'z'; a >= 'a'; a--)
 	{
