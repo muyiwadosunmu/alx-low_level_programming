@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- * puts2 - prints string
- * @str: input string to be printed
- *
- * Retrun: void
+ * puts2 - prints xters of a string
+ * @str: the used string reference
+ * Return: 0
  */
+
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
-	i = 0;
-	while (i < 2)
+	while (str[i] != '\0')
 	{
-		if (*str == '\0')
-			break;
-		_putchar(*str);
-		str = str + 2;
+		if (i % 2 == 0)
+		{
+			_putchar(str[i]);
+		}
+		i++;
 	}
 	_putchar('\n');
 }
