@@ -1,11 +1,11 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef MAIN_H
+#define MAIN_H
 
 /*
  * File: main.h
  * Auth: Muyiwa
  * Desc: Header file containing the prototypes of all functions
- *       included in the static library libholberton.a.
+ *       included in the static library libmy.a
  */
 
 int _putchar(char c);
